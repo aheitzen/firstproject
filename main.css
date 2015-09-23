@@ -1,0 +1,143 @@
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Codystar:400,300);
+
+
+html, body, ul{
+	margin:0;
+	padding:0;
+	font-family: 'Lobster', cursive;
+}
+
+header{
+	width:100%;
+	height:300px;
+}
+
+header img{
+	height:100%;
+	width:100%;
+}
+
+nav{
+	background-color:pink;
+	height:100px;
+	width:100%;
+}
+
+nav ul{
+	height:100%;
+	background-color:hotpink;
+	text-align:center;
+
+
+}
+
+nav ul li{
+	display:inline-block;
+	margin:30px 25px 0;
+	font-size:30px;
+	text-transform:uppercase;
+	font-family:'Poiret One', cursive;
+	text-shadow:1px 1px white;
+	cursor:pointer;
+}
+
+nav ul li:hover{
+	color:blue;
+}
+
+#about{
+	text-align:center;
+	padding:50px 0;
+}
+#about h2{
+	font-size:40px;
+}
+
+#about .item-container h3{
+	font-size:30px;
+	font-weight:0;
+	font-family: 'Codystar', cursive;
+}
+
+#about .item-container{
+	width:25%;
+	text-align:center;
+	padding:25px 0;
+	display:inline-block;
+}
+
+#about .circle{
+	height:150px;
+	width:150px;
+	background-color:lightpink;
+	border-radius:50%;
+	text-align:center;
+	margin:0 auto;
+	border:2px solid lightblue;
+}
+#about .circle:hover{
+	background-color:hotpink;
+	height:155px;
+	width:155px;
+}
+
+#about .circle .icon{
+	height:calc(100% - 30px);
+	width:calc(100% - 30px);
+	padding-top:15px;
+
+}
+
+#projects{
+	height:400px;
+	width:100%;
+	text-align:center;
+}
+
+
+#projects div {
+	height:200px;
+	width:200px;
+	border: 2px solid black;
+	display: inline-block;
+	background-size:100%;
+	background-position:center;
+	background-repeat: no-repeat;
+}
+
+#projects #hipsterlogo {
+	background-image: url(hipsterla.png);
+}
+#projects #cityselfie {
+	background-image: url(images/cityselfie.png);
+}
+#projects #blackmagicwoman {
+	background-image: url(images/blackmagicwoman.png);
+}
+#projects #kendrickbadge {
+	background-image: url(images/kendrickbadge.png);
+}
+#projects #retrologo {
+	background-image: url(images/retrologo.png);
+}
+#projects #tronixlogo {
+	background-image: url(images/Tronixlogo.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

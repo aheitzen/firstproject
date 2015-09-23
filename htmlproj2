@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Alexa's Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="htmlproj.css">
+	</head>
+	<body>
+		<header>
+			<img src="http://hennikgroup.com/images/header.jpg">
+		</header>
+
+		<nav>
+			<ul>
+				<li>Home</li>
+				<li>About</li>
+				<li>Profile</li>
+				<li>Contact</li>
+            </ul>
+		</nav>
+		<div id="about">
+			<h2> what Alexa loves</h2>
+			<div class="item-container">
+				<div class="circle">
+					<img class="icon" src="images/psicon.png">
+				</div>
+				<h3>Photoshop</h3>
+			</div>
+			<div class="item-container">
+				<div class="circle">
+					<img class="icon" src="images/asmr.png">
+				</div>
+				<h3>ASMR</h3>
+			</div>
+			<div class="item-container">
+				<div class="circle">
+					<img class="icon" src="images/beericon.png">
+				</div>
+				<h3>Craft Brews</h3>
+			</div>
+		</div>
+
+		<div id="projects">
+
+			<div id="hipsterlogo"></div>
+			<div id="cityselfie"></div>
+			<div id="blackmagicwoman"></div>
+			<br>
+			<div id="kendrickbadge"></div>
+			<div id="retrologo"></div>
+			<div id="tronixlogo"></div>
+
+
+
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</body>
+</html>
